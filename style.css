@@ -9,8 +9,8 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
+  background-color: #000000;    /* achtergrondkleur lichtgrijs */
+  color: rebeccapurple;               /* tekstkleur donkergrijs */
 }  
 
 body * {                          /* geldt voor alles in body */
@@ -21,10 +21,6 @@ body * {                          /* geldt voor alles in body */
 
 /* Indeling voor alle pagina's */
 
-.page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
-}
 
 header, footer {                  /* geldt voor header en footer */
   margin: 10px 0px;
@@ -61,7 +57,9 @@ p {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: skyblue;
+      color: white;
+      background-image:radial-gradient(black, black, rebeccapurple);
+      text-shadow:2px 3px 5px mediumaquamarine;
 }
 
 .smalltext {
@@ -85,6 +83,7 @@ nav ul {
     margin: auto;
     padding: 0;
     background-color: #dddddd;
+    background-image:linear-gradient(to right, rebeccapurple, black);
     overflow: hidden;
 }
 
@@ -106,4 +105,16 @@ nav li a:hover {
 
 nav li a.active {
     background-color: skyblue;
+}
+
+.box1 {
+  width: 700px;                   
+  margin: 10px auto;
+  border: solid white;
+}
+
+.box2 {
+  border: solid white;
+  width: 700 px;
+  height: 800px;
 }
