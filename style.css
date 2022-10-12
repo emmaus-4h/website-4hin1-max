@@ -57,6 +57,7 @@ p {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
+      transition-duration:2s;
       color: white;
       background-image:radial-gradient(black, black, rebeccapurple);
       text-shadow:2px 3px 5px mediumaquamarine;
@@ -73,7 +74,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+  
 }
 
 
@@ -88,7 +89,8 @@ nav ul {
 }
 
 nav ul li {
-    float: left;
+  float:left;
+  margin-left:300px;
 }
 
 nav li a {
@@ -97,24 +99,37 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+  
+    transition: margin 25px 2s;
+    transition-duration: 1s;
 }
 
+
 nav li a:hover {
-    background-color: #aaaaaa;
+    margin:20px;
 }
 
 nav li a.active {
-    background-color: skyblue;
+   text-decoration: underline;
+   text-decoration-color: lavender;
+   text-decoration-thickness: 2px;
 }
 
 .box1 {
-  width: 700px;                   
+  width: auto;                   
   margin: 10px auto;
   border: solid white;
+  border-radius: 25px;
 }
 
 .box2 {
   border: solid white;
   width: 700 px;
   height: 800px;
+}
+
+.ronnie{
+ transition-duration:2s;
+ color:goldenrod;
+ text-shadow:2px 3px 5px whitesmoke;
 }
