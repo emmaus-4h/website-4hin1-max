@@ -10,7 +10,12 @@
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
   background-color: #000000;    /* achtergrondkleur lichtgrijs */
-  color: rebeccapurple;               /* tekstkleur donkergrijs */
+  color: rebeccapurple;        /* tekstkleur donkergrijs */
+  background-image: 
+  url("https://1.bp.blogspot.com/-FjF-zCnXkBE/YTnwTwjGk-I/AAAAAAAABFU/op04qUdx8xM5QA8Vh4oY6J-SKpagPuo2gCLcBGAsYHQ/s1920/plain-black-wallpaper.webpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }  
 
 body * {                          /* geldt voor alles in body */
@@ -124,12 +129,28 @@ nav li a.active {
 
 .box2 {
   border: solid white;
-  width: 700 px;
+  width: 50%;
   height: 800px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 50px;
+  /*background-color: rgb(15, 15, 30);*/
+  background-image: linear-gradient(black, black, rebeccapurple);
 }
 
 .ronnie{
  transition-duration:2s;
  color:goldenrod;
  text-shadow:2px 3px 5px whitesmoke;
+}
+
+.text1{
+  color: white;
+  font-size: 20px;
+}
+
+.img1{
+  margin: 20px;
+  float: right;
+  border: solid white 5px;
 }
