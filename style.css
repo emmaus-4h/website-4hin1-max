@@ -154,3 +154,27 @@ nav li a.active {
   float: right;
   border: solid white 5px;
 }
+
+.img2{
+  margin: 20px;
+  float: right;
+  border: solid white 5px;
+  height: 50%;
+  width: 50%;
+}
+
+.img3{
+  margin: 20px;
+  float: right;
+  border: solid white 5px;
+  height: 60%;
+  width: 60%;
+}
+
+.img4{
+  margin: 20px;
+  float: right;
+  border: solid midnightblue 5px;
+  height: 49%;
+  width: 49%;
+}
