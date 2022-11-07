@@ -86,22 +86,21 @@ a:hover {
 /* Navigatiebalk voor alle pagina's */
 nav ul {
     list-style-type: none;
-    margin: auto;
     padding: 0;
     background-color: #dddddd;
-    background-image:linear-gradient(to right, rebeccapurple, black);
+    background-image:radial-gradient( rebeccapurple, black);
     overflow: hidden;
 }
 
 nav ul li {
-  float:left;
-  margin-left:300px;
+  display: flex;
+  justify-content: center;
 }
 
 nav li a {
-    display: block;
+    display: flex;
     color: white;
-    text-align: center;
+    
     padding: 14px 16px;
     text-decoration: none;
   
@@ -111,7 +110,7 @@ nav li a {
 
 
 nav li a:hover {
-    margin:20px;
+    margin: 20px;
 }
 
 nav li a.active {
@@ -130,7 +129,7 @@ nav li a.active {
 .box2 {
   border: solid white;
   width: 50%;
-  height: 800px;
+  height: auto;
   margin: auto;
   padding: 20px;
   border-radius: 50px;
