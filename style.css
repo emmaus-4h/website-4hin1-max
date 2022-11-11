@@ -129,12 +129,12 @@ nav li a.active {
 .box2 {
   border: solid white;
   width: 50%;
-  height: auto;
-  margin: auto;
+  height: auto; 
   padding: 20px;
   border-radius: 50px;
   /*background-color: rgb(15, 15, 30);*/
   background-image: linear-gradient(black, black, rebeccapurple);
+  margin-left: 585px;
 }
 
 .ronnie{
