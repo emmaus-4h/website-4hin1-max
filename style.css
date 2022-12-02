@@ -105,12 +105,12 @@ nav li a {
     text-decoration: none;
   
     transition: margin 25px 2s;
-    transition-duration: 1s;
+    transition-duration: 0.75s;
 }
 
 
 nav li a:hover {
-    margin: 20px;
+    margin: 10px;
 }
 
 nav li a.active {
@@ -128,13 +128,13 @@ nav li a.active {
 
 .box2 {
   border: solid white;
-  width: 50%;
+  width: 55%;
   height: auto; 
   padding: 20px;
   border-radius: 50px;
   /*background-color: rgb(15, 15, 30);*/
   background-image: linear-gradient(black, black, rebeccapurple);
-  margin-left: 585px;
+  
 }
 
 .ronnie{
@@ -174,6 +174,11 @@ nav li a.active {
   margin: 20px;
   float: right;
   border: solid midnightblue 5px;
-  height: 49%;
-  width: 49%;
+  height: 50%;
+  width: 50%;
+}
+
+.boxFlex {
+display: flex; 
+justify-content: center;
 }
