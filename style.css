@@ -138,13 +138,31 @@ nav li a.active {
 }
 
 .boxH{
-  border: solid white;
-  width: 45%;
+  width: auto;
   height: auto;
-  padding: 20px;
+  padding: 5%;
   background-image: linear-gradient(black, black, rebeccapurple);
 }
- 
+
+.boxH2 {
+  width: 40%;
+  padding: 10px;
+  background-image: radial-gradient(midnightblue, black);
+  border: solid white;
+  font-size: 20px;
+  color: white;
+  float: right;
+}
+
+.boxH3 {
+  width: 40%;
+  padding: 10px;
+  background-image: radial-gradient(midnightblue, black);
+  border: solid white;
+  font-size: 20px;
+  color: white;
+  float: left;
+}
 
 .ronnie{
  transition-duration:2s;
