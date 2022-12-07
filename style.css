@@ -137,6 +137,15 @@ nav li a.active {
   
 }
 
+.boxH{
+  border: solid white;
+  width: 45%;
+  height: auto;
+  padding: 20px;
+  background-image: linear-gradient(black, black, rebeccapurple);
+}
+ 
+
 .ronnie{
  transition-duration:2s;
  color:goldenrod;
@@ -181,4 +190,8 @@ nav li a.active {
 .boxFlex {
 display: flex; 
 justify-content: center;
+}
+
+#Steroids {
+  text-decoration: underline;
 }
