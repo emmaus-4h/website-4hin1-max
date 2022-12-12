@@ -152,6 +152,7 @@ nav li a.active {
   font-size: 20px;
   color: white;
   float: right;
+  margin: 20px;
 }
 
 .boxH3 {
@@ -162,6 +163,16 @@ nav li a.active {
   font-size: 20px;
   color: white;
   float: left;
+  margin: 20px;
+}
+
+.boxH4 {
+  padding: 10px;
+  background-image: radial-gradient(midnightblue, black);
+  border: solid white;
+  font-size: 20px;
+  color: white;
+  margin: 20px;
 }
 
 .ronnie{
