@@ -16,6 +16,7 @@ html, body {                      /* geldt voor html en body */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  min-height: 100%;
 }  
 
 body * {                          /* geldt voor alles in body */
@@ -26,10 +27,6 @@ body * {                          /* geldt voor alles in body */
 
 /* Indeling voor alle pagina's */
 
-
-header, footer {                  /* geldt voor header en footer */
-  margin: 10px 0px;
-}
 
 main {                       
   text-align: justify;            /* tekst uitvullen */}
@@ -68,18 +65,9 @@ h1, h2, h3 {
       text-shadow:2px 3px 5px mediumaquamarine;
 }
 
-.smalltext {
-    text-align: center;
-    font-size: 0.7em;
-}
-
 a {
     color: skyblue;
     text-decoration: none;
-}
-
-a:hover {
-  
 }
 
 
@@ -155,15 +143,8 @@ nav li a.active {
   margin: 20px;
 }
 
-.boxH3 {
-  width: 40%;
-  padding: 10px;
-  background-image: radial-gradient(midnightblue, black);
-  border: solid white;
-  font-size: 20px;
-  color: white;
+#BoxH3 {
   float: left;
-  margin: 20px;
 }
 
 .boxH4 {
@@ -223,4 +204,8 @@ justify-content: center;
 
 #Steroids {
   text-decoration: underline;
+}
+
+html {
+height: 100%;
 }
